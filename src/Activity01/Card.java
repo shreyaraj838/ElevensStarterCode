@@ -1,3 +1,5 @@
+package Activity01;
+
 /**
  * Card.java
  *
@@ -33,6 +35,10 @@ public class Card {
 	 */
 	public Card(String cardRank, String cardSuit, int cardPointValue) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+                this.suit = cardSuit;
+                this.rank = cardRank;
+                this.pointValue = cardPointValue;
+                System.out.println("New Code");
 	}
 
 
