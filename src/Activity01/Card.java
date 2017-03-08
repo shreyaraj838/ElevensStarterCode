@@ -87,7 +87,7 @@ public class Card {
                 }
                 else 
                     return false;
-               }
+        }  
 
 	/**
 	 * Converts the rank, suit, and point value into a string in the format
@@ -100,8 +100,7 @@ public class Card {
 	 *         and point value of the card.
 	 */
 	@Override
-	public String toString() {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-                return rank + "of" + suit + "point value =" + pointValue;
+		public String toString() {
+		return rank + " of " + suit + " (point value = " + pointValue + ")";
 	}
 }
