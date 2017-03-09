@@ -76,10 +76,6 @@ public Deck(String[] ranks, String[] suits, int[] values) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
 	}
 
-	/**
-	 * Generates and returns a string representation of this deck.
-	 * @return a string representation of this deck.
-	 */
 	@Override
 	public String toString() {
 		String rtn = "size = " + size + "\nUndealt cards: \n";
